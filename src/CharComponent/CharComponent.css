@@ -1,0 +1,25 @@
+.Char {
+    padding: 16px;
+    border: 2px solid #52778a;
+    margin: 16px; 
+
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+    vertical-align: top;
+
+    display: inline-block;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.Char:hover {
+    opacity: 0.7;
+    
+}
+
+.Char:active {
+    opacity: 0.3;
+}
