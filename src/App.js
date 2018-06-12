@@ -31,7 +31,7 @@ class App extends Component {
       <div>
         {
           this.state.text.split('').map((character, index) => {
-            let key = Math.ceil(Math.random() * 999999)
+            let key = character + '' + index;
             return <CharComponent character={character} index={index} key={key} delete={this.deleteHandler}/>;
           })
         }
